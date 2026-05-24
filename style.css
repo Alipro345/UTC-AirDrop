@@ -167,3 +167,18 @@ hr{
         grid-template-columns:1fr;
     }
 }
+.group-photo-btn {
+  background-color: #007bff; /* Nice blue color */
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Change color when the user hovers over it */
+.group-photo-btn:hover {
+  background-color: #0056b3;
+}
